@@ -1,0 +1,214 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h1 {
+    font-size: 42px;
+    text-align: center;
+}
+h2 {
+    font-size: 16px;
+    font-family: cursive;
+    font-style: italic;
+    text-align: center;
+}
+h3 {
+    font-size: 26px;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+#findus {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+#buy-me {
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+
+}
+
+#logo {
+    color: #ffffff;
+    padding: 0px;
+    text-align: center;
+    font-size: 56pt;
+    width: 100%;
+    z-index: 0
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    font-size: 16px;
+    background-color: #333;
+    width: 100%;
+    min-width: 100%;
+    z-index: 1;
+    height: 45px;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background: palevioletred;
+    color: white;
+    text-decoration-color: white;
+}
+#icon {
+    width: 35px;
+    float: left;
+    margin: -10px 0px 0px 0px;
+}
+#icon svg{
+    stroke: white;
+}
+#map {
+    padding-bottom: 20px;
+}
+
+#front-pic {
+    width: 100%;
+    display: block;
+    margin-bottom: 0px;
+}
+.bottom-border {
+    border-bottom-style: solid;
+    border-bottom-width: 20px;
+    border-bottom-color: black;
+}
+.centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#main-boxes {
+    width: 100%;
+    margin-bottom: 0px;
+    background-color: lightgray  ;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+#adopt-boxes {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.rectangle {
+    display: inline-block;
+    width: 20%;
+    height: 75px;
+    text-align: center;
+    opacity: 1;
+    border: 0px solid black;
+    padding-top: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 2%;
+    border-radius: 2%;
+    font-size: 22px;
+    color: white;
+    text-shadow: 
+    -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000
+}
+#shop-by-pet {
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    background-color: papayawhip;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+.long-rectangle {
+    display: block;
+    width: 40%;
+    height: 40px;
+    border: 5px solid black;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 10px 100px / 120px;
+    font-size: 34px;
+    color: white;
+    text-shadow: 
+    -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000
+
+}
+#dogs {
+    background-image: url(./images/dog-bones.png);
+    background-position: bottom;
+}
+#cats {
+    background-image: url(https://i.pinimg.com/originals/24/b7/f5/24b7f58e5142f14a0c6a9b80eb73b400.jpg);
+    background-position: bottom 
+}
+#reptiles {
+    background-image: url(https://cdn.shopify.com/s/files/1/0348/6097/products/1ed7fb656dacae1a255bc1f04f2a10f1_1024x1024.png?v=1481485688);
+    background-position: bottom; 
+}
+#birds {
+    background-image: url(https://cdn.shopify.com/s/files/1/0083/2742/products/Birds_print_colour_WH_grande.jpg?v=1509303170);
+    background-position: center;
+}
+#fish {
+    background-image: url(https://images.fabric.com/images/400/400/0290420.jpg);
+    background-position: center;
+}
+
+.circle {
+    display: inline-block;
+    width: 18%;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.circle img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+.link {
+    color: black;
+    text-decoration: none;
+
+}
+.link :hover {
+    opacity: .5;
+    filter: alpha(opacity=100)
+}
+#housing {
+    background-color: lightseagreen ;
+    margin-left: 5%;
+}
+
+#food {
+    background-color: orange;
+}
+#play {
+    background-color: skyblue;
+
+}
+#sale {
+    background-color: crimson;
+    margin-right: 2%
+
+}
+#adopt-us {
+    margin-bottom: 5px;
+}
+
+#fred {
+    margin-left: 5%;
+}
+
+#map-area {
+    background-color: pink;
+}
